@@ -1,0 +1,179 @@
+# IDE и редакторы
+# PyCharm
+.idea/
+*.iml
+*.iws
+.ipr
+out/
+.idea_modules/
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+.sublime/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+
+# NetBeans
+nbproject/
+nb-configuration.xml
+
+# Spyder
+.spyproject/
+
+# Visual Studio
+*.user
+*.suo
+*.sln
+*.csproj
+
+# Системные файлы
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+.document.events
+
+# Виртуальные окружения
+# Python
+venv/
+env/
+ENV/
+.env/
+.venv/
+venv.bak/
+env.bak/
+ENV.bak/
+virtualenv/
+virtualenvs/
+.virtualenvs/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+.coverage.*
+.htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# Файлы логов
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Временные файлы
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+~$*
+.DS_Store
+.spotlight
+
+# Файлы тестов
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Файлы дистрибуции и сборки
+build/
+dist/
+*.egg
+*.egg-info/
+*.whl
+*.tar.gz
+*.zip
+MANIFEST
+lib/
+lib64/
+share/
+parts/
+develop-eggs/
+eggs/
+downloads/
+.eggs/
+
+# Файлы документации
+docs/_build/
+site/
+
+# Файлы баз данных
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Docker
+.dockerignore
+.docker/
+docker-compose.override.yml
+
+# Кастомные файлы проекта
+*.secret
+*.key
+*.pem
+*.crt
+*.env.local
+*.env.development
+*.env.production
+config.local.py
+settings.local.py
+
+# Файлы отладки
+*.prof
+*.mem
+gmon.out
+
+# Файлы резервных копий
+*.orig
+*.rej
+*.old
+*.backup
+backups/
+backup_*
